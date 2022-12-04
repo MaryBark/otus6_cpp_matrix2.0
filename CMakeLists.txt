@@ -10,7 +10,7 @@
 
 cmake_minimum_required(VERSION 3.2)
 
-project(otus6_cpp_martix VERSION 0.0 ${PATCH_VERSION})
+project(otus6_cpp_martix VERSION 0.0.${PATCH_VERSION})
 
 #project(otus_cpp6_matrix LANGUAGES CXX)
 
