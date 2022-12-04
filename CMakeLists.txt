@@ -1,23 +1,6 @@
-#cmake_minimum_required(VERSION 3.5)
-
-#project(otus6_cpp_martix LANGUAGES CXX)
-
-#set(CMAKE_CXX_STANDARD 11)
-#set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-#add_executable(otus6_cpp_martix main.cpp)
-
-
 cmake_minimum_required(VERSION 3.2)
 
 project(otus6_cpp_martix VERSION 0.0.${PATCH_VERSION})
-
-#project(otus_cpp6_matrix LANGUAGES CXX)
-
-#set(CMAKE_CXX_STANDARD 11)
-#set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-#add_executable(otus_cpp6_matrix main.cpp TwoDimensDisMatrix.h TwoDimensDisMatrix.cpp ProxyPattern.h ProxyPattern.cpp)
 
 configure_file(version.h.in version.h)
 
